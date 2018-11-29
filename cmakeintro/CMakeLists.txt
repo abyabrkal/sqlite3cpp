@@ -12,10 +12,11 @@ option (USE_MYMATH "Use tutorial provided math implementation" ON)
 
 
 # configure a header file to pass some of the cmakeintro# settings to code
-configure file (
-	"${PROJECT_SOURCE_DIR}/cmintroconfig.h.in"
-	"${PROJECT_BINARY_DIR}/cmintroconfig.h"
-	)
+configure_file (
+  "${PROJECT_SOURCE_DIR}/cmintroconfig.h.in"
+  "${PROJECT_BINARY_DIR}/cmintroconfig.h"
+  )
+
 
 
 # add the binary tree to the search path for include files
@@ -33,5 +34,5 @@ endif ()
 
 # add the executables 
 add_executable (cmakeintro cmintro.cpp)
-target_link_executables (cmakeintro ${EXTRA_LIBS})
+target_link_libraries (cmakeintro ${EXTRA_LIBS})
 
