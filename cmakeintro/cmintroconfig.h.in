@@ -2,5 +2,6 @@
 
    Since the configured file will be written into the binary tree we must add that directory to the list of paths to search for include files.
 */
-#define cmakeintro_VERSION_MAJOR @cmakeintro_VERSION_MAJOR@
-#define cmakeintro_VERSION_MINOR @cmakeintro_VERSION_MINOR@
+#define cmintro_VERSION_MAJOR @cmintro_VERSION_MAJOR@
+#define cmintro_VERSION_MINOR @cmintro_VERSION_MINOR@
+#cmakedefine USE_MYMATH

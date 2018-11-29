@@ -1,0 +1,1 @@
+double mysq(double x);
