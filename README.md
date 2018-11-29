@@ -1,8 +1,9 @@
 # SQLite3 with Modern C++ 
-Experiments with Modern C++
+Experiments with Modern C++ 
+-- *Todo*
 
 ---
-## CMake Essentials
+## CMake Essentials [Nov 2018]
 ### Installation & Setup of CMake and MinGW in Windows 
 [Follow this link](https://perso.uclouvain.be/allan.barrea/opencv/building_tools.html)
 * Install CMake via setup with path addition   
