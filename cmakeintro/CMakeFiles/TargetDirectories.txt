@@ -1,4 +1,0 @@
-D:/DEV/CPP/Projects/sqlite3cpp/cmakeintro/CMakeFiles/cmakeintro.dir
-D:/DEV/CPP/Projects/sqlite3cpp/cmakeintro/CMakeFiles/ALL_BUILD.dir
-D:/DEV/CPP/Projects/sqlite3cpp/cmakeintro/CMakeFiles/ZERO_CHECK.dir
-D:/DEV/CPP/Projects/sqlite3cpp/cmakeintro/MathFunctions/CMakeFiles/MathFunctions.dir

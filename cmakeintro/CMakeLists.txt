@@ -1,6 +1,8 @@
-cmake_minimum_required (VERSION 2.6)
+cmake_minimum_required (VERSION 3.13)
 project (cmakeintro)
 
+# CMake Windows uses Visual Studio Compiler by default
+SET (CMAKE_CXX_COMPILER "C:/MinGW/bin/g++")
 
 # The version number
 set (cmakeintro_VERSION_MAJOR 1)

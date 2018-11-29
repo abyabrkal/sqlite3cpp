@@ -10,9 +10,11 @@ Experiments with Modern C++
 
 ### CMake for projects
 1. create CMakeLists.txt with necessary configuration settings
+    CMake Windows uses Visual Studio Compiler by default. You need to explicitly set gcc compiler if required.
    ...Basic configuration as below
    ``` 
-    cmake_minimum_required(VERSION 2.8)
+    cmake_minimum_required(VERSION 3.13)
+    set(CMAKE_CXX_COMPILER "C:/MinGW/bin/g++")
     project(program)
     add_executable(program main.cpp)
    ```
