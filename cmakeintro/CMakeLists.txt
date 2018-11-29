@@ -15,5 +15,15 @@ configure file (
 # so that we will find cmintroconfig.h
 include_directories("${PROJECT_BINARY_DIR}")
 
-# add the excutables 
+include_directories ("${PROJECT_SOURCE_DIR}/MathFunctions")
+add_subdirectory (MathFunctions)
+
+# should we use our own math functions?
+option (USE_MYMATH
+		"Use tutorial provided math implementation" ON)
+add_library(MathFunctions mysq.cpp)
+
+# add the executables 
 add_executable (cmakeintro cmintro.cpp)
+target_link_executables (cmakeintro MathFunctions)
+
